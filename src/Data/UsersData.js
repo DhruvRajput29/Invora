@@ -1,0 +1,38 @@
+export const users = [
+  {
+    id: 10,
+    name: "Meet Dabhi",
+    email: "meet@gmail.com",
+    phone: "7788996655",
+    role: "admin",
+    status: "Inactive",
+    createdAt: "08 Jun 2026",
+  },
+  {
+    id: 9,
+    name: "Yug Pandav",
+    email: "yugpandav@gmail.com",
+    phone: "7990065554",
+    role: "manager",
+    status: "Inactive",
+    createdAt: "08 Jun 2026",
+  },
+  {
+    id: 8,
+    name: "Sandip Dolar",
+    email: "sandipsofk07@gmail.com",
+    phone: "7567628465",
+    role: "manager",
+    status: "Active",
+    createdAt: "08 Jun 2026",
+  },
+  {
+    id: 1,
+    name: "Admin",
+    email: "admin@gmail.com",
+    phone: "-",
+    role: "admin",
+    status: "Active",
+    createdAt: "23 May 2026",
+  },
+];

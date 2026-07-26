@@ -28,7 +28,7 @@ function Rightnavbar() {
   return (
     <div className="flex items-center gap-4">
 
-      <button className="p-2 rounded-full hover:bg-gray-100 transition">
+      <button onClick={() => navigate("/notifications")} className="p-3 rounded-full hover:bg-gray-100 transition cursor-pointer">
         <BellDot size={20} />
       </button>
 

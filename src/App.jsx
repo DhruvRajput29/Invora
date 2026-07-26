@@ -12,6 +12,7 @@ import InvoicePage from "./Pages/InvoicesPage";
 import CreateInvoides from "./Components/InvoicesComponents/Create/CreateInvoices";
 import ManageruserPage from "./Pages/ManageuserPage";
 import LoginPage from "./Pages/LoginPage";
+import NotificationPage from "./Pages/NotificationPage";
 
 function App() {
   const [isOpen, setIsOpen] = useState(true);
@@ -38,6 +39,7 @@ function App() {
                 <Route path="/invoice" element={<InvoicePage />} />
                 <Route path="/invoice/create" element={<CreateInvoides />} />
                 <Route path="/manageusers" element={<ManageruserPage />} />
+                <Route path="/notifications" element={<NotificationPage />} />
               </Routes>
             </main>
           </div>

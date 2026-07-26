@@ -1,6 +1,6 @@
 import { Trash2, Plus } from "lucide-react";
 import Select from "react-select";
-import products from "../../../data/Productdata";
+import products from "../../../Data/ProductData";
 
 const customSelectStyles = {
   control: (provided, state) => ({

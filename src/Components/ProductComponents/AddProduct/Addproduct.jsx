@@ -11,7 +11,7 @@ import {
     basicFields,
     pricingFields,
     inventoryFields,
-} from "../../../Data/Addproductform";
+} from "../../../Data/ProductFormData";
 const Addproduct = () => {
     const navigate = useNavigate();
 

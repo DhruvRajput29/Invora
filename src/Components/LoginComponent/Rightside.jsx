@@ -8,7 +8,7 @@ const RightSide = () => {
     // Later you can add API authentication here
 
     // Redirect to Dashboard/Home
-    navigate("/Dashboard");
+    navigate("/");
   };
 
   return (

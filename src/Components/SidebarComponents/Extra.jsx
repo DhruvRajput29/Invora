@@ -5,7 +5,7 @@ const menuItems = [
   {
     title: "Activity Log",
     icon: Activity,
-    path: "/icons",
+    path: "/activity",
   },
 ];
 

@@ -39,13 +39,13 @@ const Addproduct = () => {
     };
 
     const Cancel = () =>{
-        navigate("/Productpage");
+        navigate("/products");
     }
     const handleSubmit = (e) => {
         e.preventDefault();
 
         console.log(formData);
-        navigate("/Productpage");
+        navigate("/products");
 
         alert("Product Added Successfully!");
     };
